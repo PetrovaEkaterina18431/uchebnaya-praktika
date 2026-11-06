@@ -25,6 +25,12 @@
                    minlength="2" required>
         </p>
         <p>
+            <label for="password">Пароль</label>
+            <input id="password" name="password" type="password"
+                    pattern="^[а-яА-ЯёЁ0-9]{8,}$" required>
+            <small id="phone-help">Не менее 8 знаков</small>
+        </p>
+        <p>
             <label for="email">Учебная почта</label>
             <input id="email" name="email" type="email"
                    placeholder="student@exemple.com" required>
