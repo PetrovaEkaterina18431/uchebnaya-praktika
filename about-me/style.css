@@ -1,0 +1,49 @@
+body {
+    color: rgb(13, 95, 26);
+    background-color: white;
+}
+
+p {
+    color: rgb(114, 165, 42);
+}
+
+h1 {
+    color: mediumseagreen;
+}
+
+.site-note {
+    font-style: italic;
+}
+
+#top {
+    letter-spacing: 0.03em;
+}
+
+.main-nav a:focus {
+    color: yellowgreen;
+}
+
+nav a:hover {
+        color: chocolate;
+}
+
+.page-footer p {
+    color: firebrick;
+}
+
+.external-link {
+    color: slategrey;
+}
+
+.news {
+    color: sienna;
+}
+
+.about {
+    color: peru;
+}
+
+.main-nav a:focus {
+    outline: 2px solid crimson;
+    outline-offset: 3px;
+}
