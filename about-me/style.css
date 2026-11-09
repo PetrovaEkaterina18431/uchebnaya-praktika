@@ -47,3 +47,127 @@ nav a:hover {
     outline: 2px solid crimson;
     outline-offset: 3px;
 }
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: slategrey;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+p, li {
+    max-width: 70ch;
+}
+
+a {
+    color: cadetblue;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.25em;
+}
+
+a:visited {color: darkslateblue;}
+a:hover {color: crimson;}
+a:focus-visible {
+    outline: 3px solid orange;
+    outline-offset: 3px;
+}
+
+caption, legend, figcaption {
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #9fb3c8;
+}
+
+.site-note {
+    font-style: italic;
+}
+
+footer {
+    font-size: 0.9rem;
+    
+}
+
+.lead {
+    font-size: 1.125rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body { 
+    margin: 0; 
+    } 
+    header, main, footer { 
+    width: min(100% - 2rem, 70rem); 
+    margin-inline: auto; 
+    } 
+    main { 
+    padding-block: 2rem; 
+    } 
+    section { 
+    margin-block: 2rem; 
+    } 
+    h1, h2, h3, p, ul, ol, figure { 
+    margin-top: 0; 
+    } 
+    .main-nav ul { 
+        display: flex; 
+        flex-wrap: wrap; 
+        gap: 0.5rem; 
+        padding: 0; 
+        list-style: none; 
+        } 
+        .main-nav a { 
+        display: inline-block; 
+        padding: 0.5rem 0.75rem; 
+        border: 1px solid #9fb3c8; 
+        border-radius: 0.35rem; 
+        } 
+        .card { 
+        padding: 1rem; 
+        border: 1px solid #c9d3dd; 
+        border-radius: 0.5rem; 
+        background-color: #ffffff; 
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            } 
+            th, td { 
+            padding: 0.65rem; 
+            border: 1px solid #aebdca; 
+            text-align: left; 
+            } 
+            input, select, textarea, button { 
+            font: inherit; 
+            } 
+            input, select, textarea { 
+            width: 100%; 
+            max-width: 32rem; 
+            padding: 0.55rem; 
+            border: 1px solid #7d8d9c; 
+            } 
+            button { 
+            padding: 0.6rem 1rem; 
+            cursor: pointer; 
+            } 
+            input[type="radio"], 
+            input[type="checkbox"] { 
+            width: auto; 
+            } 
